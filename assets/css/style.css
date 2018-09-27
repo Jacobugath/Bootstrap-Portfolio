@@ -96,7 +96,7 @@ footer {
 }
 
 #three {
-    background-image: url(../images/portfolio-3.jpg);
+    background-image: url(../images/event.png);
     background-size: cover;
     background-position: center;
 }
@@ -112,7 +112,6 @@ footer {
 }
 #content {
     background-color: #fff;
-
     width: 100%;
 }
 .container {
@@ -147,14 +146,12 @@ footer {
     padding-left: 20px;
     padding-top: 25px;
 }
-
 #mes {
     height: 200px;
     text-align: initial;
     padding: 0;
     width: 100%;
 }
-
 #navbarSupportedContent {
     z-index: 1;
     padding-right: 10%;
