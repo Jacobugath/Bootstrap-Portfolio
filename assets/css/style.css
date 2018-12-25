@@ -123,6 +123,9 @@ footer {
     background-position: right;
     width: 100%;
     border: 5px solid #4aaaa5;
+    padding: 0;
+    padding-bottom: 3%;
+
 }
 .container {
     border: 1px solid #cccccc;
@@ -130,21 +133,33 @@ footer {
 }
 #tContent {
     width: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
     padding-top: 0;
 }
 #imag {
-    background-image: url(../images/jacob.jpg);
-    width: 80%;
-    height: 300px;
+    border: 2px solid #4aaaa5;
+    background-color: black;
+    width: 85%;
+    height: 120em;
     background-size: cover;
     background-position: right;
     margin: 0;
     margin-left: auto;
     margin-right: auto;
-    border: 5px solid #4aaaa5;
+
 }
+
+@media only screen and (min-width: 1060px) {
+    #imag {
+    background-image: url(../images/jacob.jpg);
+    width: 85%;
+    height: 33em;
+    background-size: cover;
+    background-position: right;
+
+    }
+  }
 #n {
     background-color: #4aaaa5;
     padding-right: 20px;
@@ -180,4 +195,26 @@ p{
     margin-left: auto;
     margin-right: auto;
 
+}
+#about{
+    color: white;
+    width: 60%;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+
+}
+@media only screen and (min-width: 1060px) {
+    #about {
+    float:left;
+    color: white;
+    width: 60%;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    }
+  }
+.big{
+    color: #4aaaa5;
+    font-size: 30px;
 }
