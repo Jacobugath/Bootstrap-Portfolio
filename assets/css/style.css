@@ -117,6 +117,11 @@ footer {
     background-size: cover;
     background-position: center;
 }
+#six {
+    background-image: url(../images/tatu.png);
+    background-size: cover;
+    background-position: center;
+}
 #content {
     background-image: url(https://images.unsplash.com/photo-1517249865690-ee36eb09e596?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
     background-size: cover;
