@@ -11,7 +11,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Bootstrap Portfolio</title>
+        <title>Jacob Morris</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <nav class="navbar navbar-expand-lg navbar-light">
 
@@ -62,14 +63,14 @@
 
                 <div class="row">
                     <div class="col-md-4">
-                        <a href="https://github.com/Jacobugath/Word-Guess-Game">View Code</a>
-                        <a href="https://jacobugath.github.io/Word-Guess-Game/" target="blank">
+
+                        <a id="myBtn1" href="#animatedModal"target="blank">
                             <div class="is" id="one">
                                 <div class="ban">Hangman</div>
                             </div>
                         </a>
-                        <a href="https://github.com/Jacobugath/TriviaGame">View Code</a>
-                        <a href="https://jacobugath.github.io/TriviaGame/" target="blank">
+
+                        <a id="myBtn2" target="blank">
                             <div class="is" id="two">
                                 <div class="ban">Trivia</div>
                             </div>
@@ -80,15 +81,15 @@
                     </div>
 
                     <div class="col-md-4">
-                        <a href="https://github.com/chancy23/Event-Dash">View Code</a>
-                        <a href="https://chancy23.github.io/Event-Dash/" target="blank">
+
+                        <a id="myBtn4" target="blank">
                             <div class="is" id="three">
                                 <div class="ban">Event Dash</div>
                             </div>
                         </a>
 
-                        <a href="https://github.com/Jacobugath/unit-4-game">View Code</a>
-                        <a href="https://jacobugath.github.io/unit-4-game/" target="blank">
+
+                        <a id="myBtn3" target="blank">
                             <div class="is" id="four">
                                 <div class="ban">RPG Game</div>
                             </div>
@@ -97,14 +98,14 @@
                     </div>
                     <div class="col-md-4">
 
-                        <a href="https://github.com/Jacobugath/Giphy">View Code</a>
-                        <a href="https://jacobugath.github.io/Giphy/" target="blank">
+
+                        <a id="myBtn5" target="blank">
                             <div class="is" id="five">
                                 <div class="ban">Office Giphy</div>
                             </div>
                         </a>
-                        <a href="https://github.com/penajtokyo/tatu">View Code</a>
-                        <a href="https://tatuappv2.herokuapp.com/" target="blank">
+
+                        <a id="myBtn6" target="blank">
                             <div class="is" id="six">
                                 <div class="ban">Tatu</div>
                             </div>
@@ -134,12 +135,228 @@
         </div>
 
     </div>
+    <div class="row">
+            <div class="col-md-12">
+                <footer class="page-footer fixed-bottom">
+
+                    <small>Copyright &copy; Jacob Morris 2018</small>
+
+                </footer>
+            </div>
+        </div>
+
+        <div id="myModal1" class="modal">
+            <div class="modal-content">
+                <span id="close1" class="close">&times;</span>
+                <br>
+
+
+
+                                <div class="id" id="one">
+                                    <div class="ban2">Hangman Game
+
+                                </div>
+                            </div>
+
+                            <div class="id2">
+                                <h2>Hangman Game</h2>
+                                This is one of the first assignments I did through the U of U Full Stack Development Bootcamp. The point of the assignment was to practice dynamically updated HTML and CSS powered by JavaScript.
+                                <br>
+                                <br>
+                                 The app uses key events to listen for letters that a user will type. The dynamically updated HTML will inform the user whether or not their key stroke is part of the word they are trying to guess. The app also keeps track of the number of wins and losses.
+                                <br>
+                                <br>
+                              Intrestingly enough, it turns out that comic book action words use rare combinations of letters, so they are pretty darn hard to guess. Give it a shot!
+                                <br>
+                                <br>
+                                Link to App: <a target="blank" href="https://jacobugath.github.io/Word-Guess-Game/" >https://jacobugath.github.io/Word-Guess-Game/</a>
+                                <br>
+                                <br>
+                                Link to Code: <a target="blank" href="https://github.com/Jacobugath/Word-Guess-Game" >https://github.com/Jacobugath/Word-Guess-Game</a>
+
+
+                    </div>
+
+            </div>
+        </div>
+
+        <div id="myModal2" class="modal">
+                <div class="modal-content">
+                    <span id="close2" class="close">&times;</span>
+                    <br>
+
+
+
+                                    <div class="id" id="two2">
+                                        <div class="ban2">Triva Game
+
+                                    </div>
+                                </div>
+
+                                <div class="id2">
+                                    <h2>Triva Game</h2>
+                                    This is an assignment I did during the first half of the U of U Full Stack Development Bootcamp. The point of the assignment was to practice working with API's and Javascript timers.
+                                    <br>
+                                    <br>
+                                     The app pulls trivia questions from an API and presents a form with multiple choice options. The user has a limited amount of time to finish each question, after which the question is marked incorrect.
+                                    <br>
+                                    <br>
+                                    If the player chooses the incorrect answer, they are told they are are wrong and given the correct answer.
+                                    <br>
+                                    <br>
+                                    Link to App: <br><a target="blank" href="https://jacobugath.github.io/TriviaGame/" >https://jacobugath.github.io/TriviaGame/</a>
+                                    <br>
+                                    <br>
+                                    Link to Code: <a target="blank" href="https://github.com/Jacobugath/TriviaGame" >https://github.com/Jacobugath/TriviaGame</a>
+
+
+                        </div>
+
+                </div>
+            </div>
+
+            <div id="myModal3" class="modal">
+                    <div class="modal-content">
+                        <span id="close3" class="close">&times;</span>
+                        <br>
+
+
+
+                                        <div class="id" id="four">
+                                            <div class="ban2">RPG Game
+
+                                        </div>
+                                    </div>
+
+                                    <div class="id2">
+                                        <h2>RPG Game</h2>
+                                        This is an assignment I did during the first half of the U of U Full Stack Development Bootcamp. The point of the assignment was to practice working with CSS animations and jQuery.
+                                        <br>
+                                        <br>
+                                         The game features office workers hurling fireballs at each other. The funest part was getting fireballs to fly across the screen and making them increase in size as they do more damage.
+                                        <br>
+                                        <br>
+                                        The object of the game is to defeat all other office workers without your health droping to zero. The player's damage doubles with each attack, while the defenders damage remains static.
+                                        <br>
+                                        <br>
+                                        Link to App: <br><a target="blank" href="https://jacobugath.github.io/unit-4-game/" >https://jacobugath.github.io/unit-4-game/</a>
+                                        <br>
+                                        <br>
+                                        Link to Code: <a target="blank" href="https://github.com/Jacobugath/unit-4-game" >https://github.com/Jacobugath/unit-4-game</a>
+
+
+                            </div>
+
+                    </div>
+                </div>
+                <div id="myModal4" class="modal">
+                        <div class="modal-content">
+                            <span id="close4" class="close">&times;</span>
+                            <br>
+
+
+
+                                            <div class="id" id="three">
+                                                <div class="ban2">Event Dash
+
+                                            </div>
+                                        </div>
+
+                                        <div class="id2">
+                                            <h2>Event Dash</h2>
+
+                                            This is an assignment I did to conclude the first half of the U of U Full Stack Development Bootcamp. This was a group project and the purpose of it was to get experience working in a group, and using Github and API's. It was also one of the first asignments writing some of the backend using Firebase.
+                                            <br>
+                                            <br>
+                                            This app provides an easy way to create events for your friends (via social media followers or friends) and one dashboard to find events your friends from various groups (with different ways of communciating events) have created.
+                                            <br>
+                                            <br>
+                                            Link to App: <br><a target="blank" href="https://chancy23.github.io/Event-Dash/" >https://chancy23.github.io/Event-Dash/</a>
+                                            <br>
+                                            <br>
+                                            Link to Code: <a target="blank" href="https://github.com/chancy23/Event-Dash" >https://github.com/chancy23/Event-Dash</a>
+
+
+                                </div>
+
+                        </div>
+                    </div>
+                    <div id="myModal5" class="modal">
+                            <div class="modal-content">
+                                <span id="close5" class="close">&times;</span>
+                                <br>
+
+
+
+                                                <div class="id" id="five">
+                                                    <div class="ban2">Office Giphy
+
+                                                </div>
+                                            </div>
+
+                                            <div class="id2">
+                                                <h2>Office Giphy</h2>
+
+                                                This is an assignment I did to during the second half of the U of U Full Stack Development Bootcamp. The purpose of this assignment was to practice working with ajax and the GIPHY API.
+                                                <br>
+                                                <br>
+                                                This app uses the GIPHY API to make a dynamic web page that populates with gifs of my choice. I chose a theme using Gifs from my favorite TV show 'The Office' To finish this task, I had to call the GIPHY API and use JavaScript and jQuery to change the HTML the site.
+                                                <br>
+                                                <br>
+                                                Link to App: <br><a target="blank" href="https://jacobugath.github.io/Giphy/" >https://jacobugath.github.io/Giphy/</a>
+                                                <br>
+                                                <br>
+                                                Link to Code: <a target="blank" href="https://github.com/Jacobugath/Giphy" ><br>https://github.com/Jacobugath/Giphy</a>
+
+
+                                    </div>
+
+                            </div>
+                        </div>
+                        <div id="myModal6" class="modal">
+                                <div class="modal-content">
+                                    <span id="close6" class="close">&times;</span>
+                                    <br>
+
+
+
+                                                    <div class="id" id="six">
+                                                        <div class="ban2">Tatu
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="id2">
+                                                    <h2>Tatu</h2>
+
+                                                    This is the final project I did through the U of U Full Stack Development Bootcamp. The point of the assignment was to practice working with a group, and writing an entire app from end to end. This app was written using the MERN stack.
+                                                    <br>
+                                                    <br>
+                                                    The app allows users to search for tattoos and tattoo artists based on certain criteria and tags (style and placement on the body) and returns images and details of the tattoo that meet the user’s criteria.
+                                                    <br>
+                                                    <br>
+                                                    Link to App: <br><a target="blank" href="https://tatuappv2.herokuapp.com" >https://tatuappv2.herokuapp.com</a>
+                                                    <br>
+                                                    <br>
+                                                    Link to Code: <a target="blank" href="https://github.com/penajtokyo/tatu" ><br>https://github.com/penajtokyo/tatu</a>
+
+
+                                        </div>
+
+                                </div>
+                            </div>
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+        <script src="./assets/index.js"></script>
+        script
+  <src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
     </body>
 
 </html>
