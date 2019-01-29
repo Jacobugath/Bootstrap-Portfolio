@@ -131,6 +131,8 @@ footer {
     margin: 0;
     padding: 0;
     height: 100%;
+    padding-left: 10%;
+    height: 100%;
 }
 .navbar {
     background-color: #4aaaa5;
@@ -246,10 +248,6 @@ footer {
     background-color: #4aaaa5;
 
 }
-#move {
-    padding-left: 10%;
-    height: 100%;
-}
 input, textarea{
     border: 2px solid #4aaaa5;
 }
@@ -302,10 +300,12 @@ p{
   }
   @media only screen and (max-width: 1060px) {
     .modal-content {
-        background-image: url(https://images.unsplash.com/photo-1517249865690-ee36eb09e596?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
+        background-image: none;
+        margin: 15% auto;
         width: 80%;
+        padding: 20px;
+        height: 0;
         border: none;
-        padding: 0;
 
     }
   }
