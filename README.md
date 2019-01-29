@@ -8,6 +8,11 @@ The deployed version of the app is found at: https://jacobugath.github.io/Bootst
 
 Screenshots of App:
 
+About Page:
+
 ![screen shot 2019-01-29 at 3 32 17 pm](https://user-images.githubusercontent.com/38122078/51945374-cf0c2380-23db-11e9-97cc-89f5b1bd7f88.png)
+
+Contact Page:
+![screen shot 2019-01-29 at 3 32 26 pm](https://user-images.githubusercontent.com/38122078/51945406-ec40f200-23db-11e9-9f8f-a25b65985890.png)
 
 
