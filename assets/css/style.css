@@ -100,7 +100,23 @@ footer {
     }
   }
 
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    left: 98%;
+    top: -.25%;
+  }
 
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
 .id2 {
 
@@ -116,16 +132,26 @@ footer {
 @media only screen and (max-width: 1060px) {
     .id2 {
         background-image: url(https://images.unsplash.com/photo-1517249865690-ee36eb09e596?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
-        height: 400px;
+        height: 570px;
         width: 100%;
         float: left;
         position: absolute;
         left: 0;
         display: inline-block;
         float: none;
-        border: 1px solid #4aaaa5;
+        border: 5px solid #4aaaa5;
+        padding: 2%;
 
     }
+    .close{
+
+        position: absolute;
+        left: 90%;
+        top: -.25%;
+
+
+    }
+
   }
 .ban {
     position: relative;
@@ -330,23 +356,7 @@ p{
     }
   }
 
-  /* The Close Button */
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    position: absolute;
-    left: 98%;
-    top: -.25%;
-  }
 
-  .close:hover,
-  .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
 
   .ban2 {
     position: relative;
