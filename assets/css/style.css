@@ -28,7 +28,8 @@ input {
 
 nav {
     bacground-color: #4aaaa5;
-    border: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
     height: 70px;
     padding-left: 20%;
     padding-right: 20%;
@@ -43,7 +44,6 @@ h1 {
     color: #fff;
     background-color: #4aaaa5;
     height: 100%;
-    z-index: 100;
     font-size: 71px;
     position: relative;
     top: -10%;
@@ -92,7 +92,12 @@ footer {
 
     }
   }
+  @media only screen and (max-width: 1060px) {
+    h1 {
 
+       opacity: 0;
+    }
+  }
 
 
 
@@ -246,7 +251,6 @@ footer {
     width: 100%;
 }
 #navbarSupportedContent {
-    z-index: 0;
     padding-right: 10%;
     background-color: #4aaaa5;
 
@@ -360,4 +364,14 @@ p{
 }
 #ab, #cn, #pr, #ab2, #cn2, #pr2,#ab3, #cn3, #pr3{
     color: white;
+    opacity: 1;
+    margin: 5px;
+
+}
+.navbar-nav{
+    flex-direction: row;
+
+}
+#pr3{
+    padding-right: 70px;
 }
