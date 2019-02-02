@@ -358,7 +358,6 @@ p{
 .col-sm-12{
     padding: 0;
 }
-.nav-link{
-    opacity: 1;
-    z-index: 400;
+#ab, #cn, #pr, #ab2, #cn2, #pr2,#ab3, #cn3, #pr3{
+    color: white;
 }
