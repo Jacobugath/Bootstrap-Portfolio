@@ -2,3 +2,13 @@
     margin: 0;
     padding: 0;
 }
+#pcontent {
+    color: white;
+    background-color: black;
+    background-size: cover;
+    background-position: right;
+    width: 25%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+}
